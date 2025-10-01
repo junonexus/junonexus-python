@@ -1,0 +1,60 @@
+print("---- MORSE CODE CONVERTER ----")
+str=input("Enter anything in english: ").lower()
+def check(i):
+    match i:
+        case " ":
+            print("/",end=" ")
+        case "a":
+            print(".-",end=" ")
+        case "b":
+            print("-...",end=" ")
+        case "c":
+            print("-.-.",end=" ")
+        case "d":
+            print("-..",end=" ")
+        case "e":
+            print(".",end=" ")
+        case "f":
+            print("..-.",end=" ")
+        case "g":
+            print("--.",end=" ")
+        case "h":
+            print("....",end=" ")
+        case "i":
+            print("..",end=" ")
+        case "j":
+            print(".---",end=" ")
+        case "k":
+            print("-.-",end=" ")
+        case "l":
+            print(".-..",end=" ")
+        case "m":
+            print("--",end=" ")
+        case "n":
+            print("-.",end=" ")
+        case "o":
+            print("---",end=" ")
+        case "p":
+            print(".--.",end=" ")
+        case "q":
+            print("--.-",end=" ")
+        case "r":
+            print(".-.",end=" ")
+        case "s":
+            print("...",end=" ")
+        case "t":
+            print("-",end=" ")
+        case "u":
+            print("..-",end=" ")
+        case "v":
+            print("...-",end=" ")
+        case "w":
+            print(".--",end=" ")
+        case "x":
+            print("-..-",end=" ")
+        case "y":
+            print("-.--",end=" ")
+        case "z":
+            print("--..",end=" ")
+for i in str:
+    check(i)
